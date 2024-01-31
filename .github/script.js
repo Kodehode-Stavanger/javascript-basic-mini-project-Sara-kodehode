@@ -28,9 +28,4 @@ function addTask() {
   doneBtn.innerText = "Done";
   doneBtn.classList.add("done-task");
   task.append(doneBtn);
-
-  let deleteBtn = document.createElement("button");
-  deleteBtn.innerText = "Delete";
-  doneBtn.classList.add("delete-task-btn");
-  task.append(deleteBtn);
 }
