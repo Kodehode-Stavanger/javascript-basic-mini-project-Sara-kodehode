@@ -24,8 +24,7 @@ function addTask() {
   taskList.append(task);
   task.append(taskText);
 
-  let doneBtn = document.createElement("button");
-  doneBtn.innerText = "Done";
-  doneBtn.classList.add("done-task");
-  task.append(doneBtn);
+  let checkBox = document.createElement("input");
+  checkBox.type = "checkbox";
+  task.append(checkBox);
 }
